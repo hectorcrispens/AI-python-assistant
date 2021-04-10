@@ -1,0 +1,55 @@
+,intents,patterns
+0,greeting,Hi there
+1,greeting,How are you
+2,greeting,Is anyone there?
+3,greeting,Hello
+4,greeting,Good day
+5,goodbye,Bye
+6,goodbye,See you later
+7,goodbye,Goodbye
+8,goodbye,"Nice chatting to you, bye"
+9,goodbye,Till next time
+10,thanks,Thanks
+11,thanks,Thank you
+12,thanks,That's helpful
+13,thanks,"Awesome, thanks"
+14,thanks,Thanks for helping me
+15,options,How you could help me?
+16,options,What you can do?
+17,options,What help you provide?
+18,options,How you can be helpful?
+19,options,What support is offered
+20,about,Who are you?
+21,about,What are you?
+22,about,Who you are?
+23,name,what is your name
+24,name,what should I call you
+25,name,whats your name?
+26,help,Could you help me?
+27,help,give me a hand please
+28,help,Can you help?
+29,help,What can you do for me?
+30,help,I need a support
+31,help,I need a help
+32,help,support me please
+33,createaccount,I need to create a new account
+34,createaccount,how to open a new account
+35,createaccount,I want to create an account
+36,createaccount,can you create an account for me
+37,createaccount,how to open a new account
+38,complaint,have a complaint
+39,complaint,I want to raise a complaint
+40,complaint,there is a complaint about a service
+41,translate,Can you translate this for me
+42,translate,can you translate
+43,translate,translate please
+44,translate,please can you translate
+45,shutup,please shut up
+46,shutup,shut up
+47,shutup,i need silence
+48,shutup,please stop talking
+49,shutup,be quiet please
+50,speak,please speak again
+51,speak,tell me
+52,speak,talk to me again
+53,speak,enable sound

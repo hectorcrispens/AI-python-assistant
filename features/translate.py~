@@ -1,0 +1,8 @@
+#pip3 install googletrans==3.1.0a0
+from googletrans import Translator
+
+def translate(data):
+    translator = Translator()
+    translations = translator.translate(data, "es")
+    return translations.text
+    

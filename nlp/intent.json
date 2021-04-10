@@ -1,0 +1,83 @@
+{"intents": [
+      {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": ["conversation"]
+      },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": ["conversation"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": ["conversation"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": ["conversation"]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+     "context": ["conversation"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"],
+     "context": ["conversation"]
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?"],
+     "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"],
+     "context": ["conversation"]
+    },
+    {"tag": "help",
+     "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+     "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"],
+     "context": ["conversation"]
+    },
+    {"tag": "createaccount",
+     "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+     "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"],
+     "context": ["conversation"]
+    },
+    {"tag": "complaint",
+     "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+     "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"],
+     "context": ["conversation"]
+    },
+    {
+    "tag": "translate",
+    "patterns": ["Can you translate this for me", "Can you translate", "translate please", "please can you translate"],
+	"responses": ["of course I await your message", "tell me what you want to translate", "what is the phrase you want to translate", "Yes, please tell me what you want to translate"],
+    "context": ["translate"]
+    },
+    {
+	"tag": "shutup",
+	"patterns": ["please shut up", "shut up", "i need silence", "please stop talking", "be quiet please"],
+	"responses": ["of course", "I will shut up", "excuse me"],
+	"context": ["conversation"]
+    },
+    {
+	"tag": "speak",
+	"patterns": ["please speak again", "tell me", "talk to me again", "enable sound"],
+	"responses": ["here i am back", "I really wanted to talk", "i love to talk"],
+	"context": ["conversation"]
+    },
+    {
+	"tag": "weather",
+	"patterns": ["weather", "what's the weather like"],
+	"responses": ["right away", "soon", "looking for information"],
+	"context": ["conversation"]
+    },
+    {
+	"tag": "time",
+	"patterns": ["what time is it"],
+	"responses": [""],
+	"context": ["conversation"]
+    }
+]
+}
